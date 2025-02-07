@@ -15,7 +15,7 @@
           <string>D</string>
         </entry>
       </elementAttributes>
-      <pos x="200" y="-200"/>
+      <pos x="80" y="-200"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -29,7 +29,7 @@
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="-200"/>
+      <pos x="200" y="-200"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -43,7 +43,7 @@
           <string>B</string>
         </entry>
       </elementAttributes>
-      <pos x="120" y="-200"/>
+      <pos x="160" y="-200"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -57,7 +57,7 @@
           <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="80" y="-200"/>
+      <pos x="120" y="-200"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -241,12 +241,12 @@ S is strobe.  When strobe is high the output is always low,
       <p2 x="80" y="340"/>
     </wire>
     <wire>
-      <p1 x="80" y="-200"/>
-      <p2 x="80" y="-100"/>
-    </wire>
-    <wire>
       <p1 x="80" y="40"/>
       <p2 x="80" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="-200"/>
+      <p2 x="80" y="-100"/>
     </wire>
     <wire>
       <p1 x="80" y="-100"/>
@@ -285,20 +285,16 @@ S is strobe.  When strobe is high the output is always low,
       <p2 x="-40" y="80"/>
     </wire>
     <wire>
-      <p1 x="200" y="-200"/>
-      <p2 x="200" y="80"/>
-    </wire>
-    <wire>
       <p1 x="200" y="200"/>
       <p2 x="200" y="220"/>
     </wire>
     <wire>
-      <p1 x="200" y="220"/>
-      <p2 x="200" y="260"/>
+      <p1 x="200" y="-200"/>
+      <p2 x="200" y="80"/>
     </wire>
     <wire>
-      <p1 x="120" y="-200"/>
-      <p2 x="120" y="80"/>
+      <p1 x="200" y="220"/>
+      <p2 x="200" y="260"/>
     </wire>
     <wire>
       <p1 x="280" y="-100"/>
@@ -315,6 +311,10 @@ S is strobe.  When strobe is high the output is always low,
     <wire>
       <p1 x="40" y="280"/>
       <p2 x="40" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-200"/>
+      <p2 x="120" y="80"/>
     </wire>
     <wire>
       <p1 x="-80" y="20"/>
