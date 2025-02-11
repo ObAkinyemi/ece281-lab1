@@ -73,10 +73,10 @@ architecture thirtyOneDayMonth_arch of thirtyOneDayMonth is
   
 begin
 	-- CONCURRENT STATEMENTS---------------------------------------
-	--assigning names to reflect original schematics (for ease of understanding if you wish to)
+	--assigning names to reflect original schematics (for ease of understanding if you wish to)	-- one
 	w_sel(0) <= i_C;
 	w_sel(1) <= i_B;
-	w_sel(2) <= i_A;	-- one
+	w_sel(2) <= i_A;
 	w_sel(3) <= i_D;
 	--with SEL select
 	--F <= "0001" when "00",
